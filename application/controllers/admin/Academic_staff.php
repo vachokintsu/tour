@@ -6,7 +6,7 @@ class Academic_staff extends CI_Controller {
 		parent::__construct();
 		if(!$this->session->userdata('email')) {redirect(base_url('admin/login'));}
 		$this->load->model(array('Configs_ad_model', 'Academic_staff_ad_model', 'Subscribers_ad_model'));
-		$this->pageTitle = 'აკადემიური პერსონალი';
+		$this->pageTitle = 'ტურები';
 	}
 
 	public function index($start = 0)

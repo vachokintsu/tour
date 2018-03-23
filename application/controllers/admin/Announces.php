@@ -6,7 +6,7 @@ class Announces extends CI_Controller {
 		parent::__construct();
 		if(!$this->session->userdata('email')) {redirect(base_url('admin/login'));}
 		$this->load->model(array('Configs_ad_model', 'Announces_ad_model'));
-		$this->pageTitle = 'ანონსები';
+		$this->pageTitle = 'ღონისძიებები';
 	}
 
 	public function index($start = 0)

@@ -6,7 +6,7 @@ class Schools extends CI_Controller {
 		parent::__construct();
 		if(!$this->session->userdata('email')) {redirect(base_url('admin/login'));}
 		$this->load->model(array('Configs_ad_model', 'Schools_ad_model'));
-		$this->pageTitle = 'სკოლები და პროგრამები';
+		$this->pageTitle = 'პოპულარული ტურები';
 	}
 
 	public function index()
