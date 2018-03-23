@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'roboto_regular';
+    src: url('../fonts/roboto_regular.ttf');
+}
+.header-tools-wrap button,
+.header-text-link,
+.header-lang-box a,
+h1, h2, h3, h4, h5, h6, p, body,
+.header-search-field,
+.subscribe-form-email-field,
+#mini-clndr .clndr .controls .month,
+.copyright,
+.logo-box-title,
+#mini-clndr .clndr .days-container .events .event-header {
+	font-family: 'roboto_regular';
+}
+.header-text-link {
+	line-height: 44px;
+}
+.header-conference-link {
+	padding-top: 1px;
+}
+.slider-caption-title {
+	padding: 23px 15px 23px;
+}
+.block-header-title {
+    padding-top: 0; 
+    text-transform: uppercase;
+}
+button.header-search-btn {
+    padding-top: 2px;
+}
+.block-header-btn {
+	padding: 7px 10px 6px;
+}
+.subscribe-form-title {
+    padding: 10px 30px 9px;
+    text-transform: uppercase;
+}
+.subscribe-form-email-field {
+	padding: 8px 15px 9px;
+}
+.subscribe-form-submit {
+    padding: 11px 15px 10px;
+    text-transform: uppercase;
+}
+.fixed-quiz-answer-btn {
+	top: 0;
+}
+.fixed-quiz-answer-wrap {
+	padding: 0 15px;
+    text-transform: uppercase;
+}
+#mini-clndr .clndr .days-container .events .events-list .event {
+    padding-bottom: 13px;
+}
