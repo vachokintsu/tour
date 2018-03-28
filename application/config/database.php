@@ -80,9 +80,9 @@ if($_SERVER['SERVER_NAME'] == 'tour.ge') {
 	$database = 'tour';
 } else {
 	$hostname = 'mysql.hostinger.com';
-	$username = 'u574503339_ave';
-	$password = 'Ave123;';
-	$database = 'u574503339_ave';
+	$username = 'u753816279_tour';
+	$password = 'VachoKintsu123';
+	$database = 'u753816279_tour';
 }
 
 $db['default'] = array(
